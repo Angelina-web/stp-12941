@@ -1,0 +1,116 @@
+.policy {
+  background: var(--background-second-brand-color);
+  padding: 48px 16px;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+}
+.policy-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 32px;
+  padding: 10px;
+  min-width: 160px;
+  height: 40px;
+  background: var(--button-additional);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--typography-white);
+  margin: 0 auto 48px;
+}
+.policy-main-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: var(--typography-main);
+  margin-bottom: 8px;
+}
+.policy-date {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--typography-main);
+  margin-bottom: 48px;
+}
+
+.policy-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.62;
+  color: var(--typography-main);
+  margin-bottom: 48px;
+}
+
+.policy-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--typography-main);
+  margin-bottom: 16px;
+}
+
+.policy-mini-title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--typography-main);
+  margin: 0;
+}
+
+.policy-list {
+  list-style: circle;
+  padding-left: 16px;
+  margin-bottom: 48px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .policy {
+    padding: 70px 158px 100px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+  }
+  .policy-btn {
+    border-radius: 32px;
+    padding: 10px;
+    min-width: 360px;
+    height: 75px;
+    font-size: 24px;
+    margin: 0 auto 123px;
+  }
+  .policy-main-title {
+    font-size: 64px;
+  }
+  .policy-date {
+    font-size: 32px;
+    line-height: 1.69;
+    margin-bottom: 64px;
+  }
+
+  .policy-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 48px;
+  }
+
+  .policy-title {
+    font-weight: 500;
+    font-size: 48px;
+    margin-top: 16px;
+  }
+
+  .policy-mini-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 16px;
+  }
+}
