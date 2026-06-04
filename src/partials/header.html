@@ -1,0 +1,121 @@
+<header class="header">
+  <div class="container">
+    <div class="header-wrapper">
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-logo">
+            <a href="./index.html">
+              <picture>
+                <source
+                  srcset="./img/logo/logo.png 1x, ./img/logo/logo2x.png 2x"
+                  media="(min-width: 1440px)"
+                />
+
+                <img
+                  src="./img/logo/logo.png"
+                  class="logo-header"
+                  alt="Hungry Cats"
+                  width="170"
+                  height="31"
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a href="#about" data-category-link class="header-link"
+              >About the game</a
+            >
+          </li>
+          <li>
+            <a href="#howtoplay" data-category-link class="header-link"
+              >How to play</a
+            >
+          </li>
+          <li>
+            <a href="#features" data-category-link class="header-link"
+              >Features</a
+            >
+          </li>
+          <li><a href="#faq" data-category-link class="header-link">FAQ</a></li>
+          <li>
+            <a href="#contact" data-category-link class="header-link"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Mobile menu-->
+    <div class="header-mobile-wrapper">
+      <div class="header-logo-mobile">
+        <a href="./index.html">
+          <picture>
+            <source
+              srcset="./img/logo/logo-mob.png 1x, ./img/logo/logo-mob2x.png 2x"
+              media="(max-width: 1439px)"
+            />
+            <img
+              src="./img/logo/logo-mob.png"
+              class="logo-header"
+              alt="Hungry Cats"
+              width="144"
+              height="31"
+            />
+          </picture>
+        </a>
+      </div>
+
+      <button
+        class="header-burger-btn"
+        type="button"
+        id="header-logo-icon"
+        data-header-menu-open
+      >
+        <svg class="header-icon-btn">
+          <use href="./img/sprite.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu js-mobile-menu">
+  <button
+    class="header-icon-close-menu"
+    type="button"
+    id="header-mobile-menu-close"
+    data-header-menu-close
+  >
+    <svg class="header-icon-close" width="31" height="31">
+      <use href="./img/sprite.svg#icon-close"></use>
+    </svg>
+  </button>
+  <nav class="header-mobile-nav">
+    <ul class="header-list-mobile">
+      <li>
+        <a href="#about" data-category-link class="header-link-mobile"
+          >About the game</a
+        >
+      </li>
+      <li>
+        <a href="#howtoplay" data-category-link class="header-link-mobile"
+          >How to play</a
+        >
+      </li>
+      <li>
+        <a href="#features" data-category-link class="header-link-mobile"
+          >Features</a
+        >
+      </li>
+      <li>
+        <a href="#faq" data-category-link class="header-link-mobile">FAQ</a>
+      </li>
+      <li>
+        <a href="#contact" data-category-link class="header-link-mobile"
+          >Contact</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>

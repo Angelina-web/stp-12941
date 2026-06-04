@@ -3,33 +3,52 @@ html {
 }
 
 section {
-  scroll-margin-top: 80px; 
+  scroll-margin-top: 80px;
 }
 
 @media screen and (min-width: 1200px) {
-
   section {
     scroll-margin-top: 160px;
   }
 }
 
 :root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: 'DM Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #1c1c1c;
-  background-color: #ffebd7;
+  --blue-100: #e3edf7;
+  --blue-200: #d2e6fa;
+  --blue-300: #bdc8d2;
+  --blue-500: #6e96a7;
+  --nude-100: #fdfef6;
+  --nude-200: #f3ede2;
+  --nude-300: #e4dbcb;
+  --red-500: #fe531f;
+  --brown-700: #4a3525;
+  --default-0: #fff;
+  --background-main-brand-color: var(--blue-100);
+  --background-second-brand-color: var(--nude-100);
+  --background-invers: var(--blue-500);
+  --typography-white: var(--default-0);
+  --typography-main: var(--brown-700);
+  --button-primary: var(--red-500);
+  --border-700: var(--brown-700);
+  --element-700: var(--brown-700);
+  --background-accordion-surface: var(--nude-300);
+  --background-accordion-base: var(--nude-200);
+  --element-0: var(--default-0);
+  --background-dark-nude: var(--nude-300);
+  --background-cards-base-nude: var(--nude-300);
+  --background-cards-base-blue: var(--blue-300);
+  --element-blue: var(--blue-100);
+  --blue: #6c85dd;
+  --typography-link: var(--blue);
+  --nude-400: #c2b7a5;
+  --nude-500: #e0dacf;
+  --element-page-active: var(--nude-400);
+  --element-page-unactive: var(--nude-500);
+  --button-additional: var(--blue-500);
 
-  --color-text: #1c1c1c;
-  --color-beg: #ffebd7;
-  --color-beg-accent: #ffda8b;
-  --color-pink: #ef6dc8;
-  --color-pink-accent: #db19a9;
-  --color-btn: #fcb825;
-  --color-disable: #a4a4a4;
-  --color-white: #fff;
+  font-family: 'Montserrat', 'Inter', sans-serif;
+  color: #4a3525;
+  background-color: #e3edf7;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -38,22 +57,22 @@ section {
   -webkit-text-size-adjust: 100%;
 }
 h1 {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 h2 {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
 }
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 p {
-  font-family: 'DM Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
@@ -67,4 +86,10 @@ body {
 
 main {
   flex-grow: 1;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }

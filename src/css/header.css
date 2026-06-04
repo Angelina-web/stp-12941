@@ -1,0 +1,128 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  background-color: var(--background-invers);;
+  z-index: 10;
+}
+
+.header-wrapper {
+  display: none;
+}
+/* Мобільний хедер */
+.header-mobile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  position: relative;
+}
+
+.header-icon-btn {
+  fill: white;
+  color: white;
+  stroke: white;
+  width: 31px;
+  height: 31px;
+}
+
+/* Мобільне меню */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 352px;
+  background-color: var(--background-invers);
+  z-index: 1000;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  padding: 100px 74px 120px 20px;
+   box-sizing: border-box; 
+}
+
+.mobile-menu.js-open {
+  transform: translateX(0);
+}
+
+.header-icon-close-menu {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+}
+
+.header-icon-close {
+   fill: white;
+  color: white;
+}
+
+.header-list-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header-link-mobile {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--typography-white);;
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    height: 70px;
+  }
+ 
+  .header-mobile-wrapper,
+  .mobile-menu {
+    display: none;
+  }
+  .header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .header-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 19px 72px;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+
+  .header-link {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--typography-white);
+    transition: transform 0.3s ease;
+  }
+
+  .header-link:hover {
+    transform: scale(1.1);
+  }
+
+  .header-logo {
+    flex-shrink: 0;
+    margin-right: 500px;
+  }
+}

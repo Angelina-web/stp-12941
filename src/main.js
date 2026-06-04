@@ -6,4 +6,3 @@ import './js/features';
 import './js/faq';
 import './js/cta';
 import './js/footer';
-import './js/cookies';
