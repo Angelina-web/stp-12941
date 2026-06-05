@@ -1,0 +1,9 @@
+.howtoplay-swiper {
+  position: relative;
+}
+
+.howtoplay-swiper .swiper-pagination {
+  position: relative;
+  margin-top: 16px;
+  text-align: center;
+}
