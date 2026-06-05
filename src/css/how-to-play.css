@@ -7,3 +7,99 @@
   margin-top: 16px;
   text-align: center;
 }
+
+.howtoplay {
+  background: var(--background-second-brand-color);
+  padding: 64px 0px;
+}
+.howtoplay-title {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: var(--typography-main);
+  margin: 0 auto;
+  margin-bottom: 4px;
+}
+.howtoplay-parag {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--typography-main);
+  max-width: 249px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+.howtoplay-img-cont {
+  border-radius: 32px;
+  padding: 15px 18px 15px 18px;
+  width: 162px;
+  height: 161px;
+  background: var(--background-accordion-surface);
+  margin-bottom: 8px;
+}
+.howtoplay-text {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: var(--typography-main);
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  background: var(--element-page-unactive);
+  opacity: 1;
+  margin: 0 10px !important;
+  border-radius: 50%;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--element-page-active);
+}
+
+@media screen and (min-width: 1440px) {
+  .howtoplay {
+    padding: 100px 158px;
+  }
+  .howtoplay-title {
+    font-size: 36px;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 8px;
+  }
+  .howtoplay-parag {
+    font-size: 24px;
+    max-width: 779px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+  }
+  .howtoplay-swiper {
+    margin: 0 auto;
+  }
+  .howtoplay-img-cont {
+    padding: 13px;
+    width: 196px;
+    height: 196px;
+    margin-bottom: 16px;
+  }
+  .howtoplay-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 181px;
+    row-gap: 72px;
+  }
+  .howtoplay-list li {
+    width: calc((100% - 362px) / 3); /* 3 × 24px між 4 елементами */
+  }
+
+  .howtoplay-text {
+    font-size: 24px;
+    max-width: 254px;
+    text-align: center;
+  }
+}
