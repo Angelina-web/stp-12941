@@ -1,0 +1,620 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Join millions of players in Hungry Cats! Solve colorful puzzles and collect adorable cartoon cats."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Hungry Cats" />
+    <meta
+      property="og:description"
+      content="Join millions of players in Hungry Cats! Solve colorful puzzles and collect adorable cartoon cats."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/stp-12941/assets/favicon16-B8yMy02N.png" />
+    <link rel="apple-touch-icon" sizes="500x500" href="/stp-12941/assets/favicon500-BVnfKuZk.png" />
+    <title>Hungry Cats</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script type="module" crossorigin src="/stp-12941/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/stp-12941/assets/vendor-JKbDflWi.js">
+    <link rel="stylesheet" crossorigin href="/stp-12941/assets/vendor-CeYfhhVD.css">
+    <link rel="stylesheet" crossorigin href="/stp-12941/assets/style-CojwjYD5.css">
+  </head>
+
+  <body>
+    <header class="header">
+  <div class="container">
+    <div class="header-wrapper">
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-logo">
+            <a href="./index.html">
+              <picture>
+                <source
+                  srcset="/stp-12941/assets/logo-Gm_BP220.png 1x, /stp-12941/assets/logo2x-B5iJ0CWk.png 2x"
+                  media="(min-width: 1440px)"
+                />
+
+                <img
+                  src="/stp-12941/assets/logo-Gm_BP220.png"
+                  class="logo-header"
+                  alt="Hungry Cats"
+                  width="170"
+                  height="31"
+                />
+              </picture>
+            </a>
+          </li>
+          <li>
+            <a href="#about" data-category-link class="header-link"
+              >About the game</a
+            >
+          </li>
+          <li>
+            <a href="#howtoplay" data-category-link class="header-link"
+              >How to play</a
+            >
+          </li>
+          <li>
+            <a href="#features" data-category-link class="header-link"
+              >Features</a
+            >
+          </li>
+          <li><a href="#faq" data-category-link class="header-link">FAQ</a></li>
+          <li>
+            <a href="#contact" data-category-link class="header-link"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Mobile menu-->
+    <div class="header-mobile-wrapper">
+      <div class="header-logo-mobile">
+        <a href="./index.html">
+          <picture>
+            <source
+              srcset="/stp-12941/assets/logo-mob-Cq3TAw7z.png 1x, /stp-12941/assets/logo-mob2x-B4q5GOgo.png 2x"
+              media="(max-width: 1439px)"
+            />
+            <img
+              src="/stp-12941/assets/logo-mob-Cq3TAw7z.png"
+              class="logo-header"
+              alt="Hungry Cats"
+              width="144"
+              height="31"
+            />
+          </picture>
+        </a>
+      </div>
+
+      <button
+        class="header-burger-btn"
+        type="button"
+        id="header-logo-icon"
+        data-header-menu-open
+      >
+        <svg class="header-icon-btn">
+          <use href="/stp-12941/assets/sprite-DdjLjxt2.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu js-mobile-menu">
+  <button
+    class="header-icon-close-menu"
+    type="button"
+    id="header-mobile-menu-close"
+    data-header-menu-close
+  >
+    <svg class="header-icon-close" width="31" height="31">
+      <use href="/stp-12941/assets/sprite-DdjLjxt2.svg#icon-close"></use>
+    </svg>
+  </button>
+  <nav class="header-mobile-nav">
+    <ul class="header-list-mobile">
+      <li>
+        <a href="#about" data-category-link class="header-link-mobile"
+          >About the game</a
+        >
+      </li>
+      <li>
+        <a href="#howtoplay" data-category-link class="header-link-mobile"
+          >How to play</a
+        >
+      </li>
+      <li>
+        <a href="#features" data-category-link class="header-link-mobile"
+          >Features</a
+        >
+      </li>
+      <li>
+        <a href="#faq" data-category-link class="header-link-mobile">FAQ</a>
+      </li>
+      <li>
+        <a href="#contact" data-category-link class="header-link-mobile"
+          >Contact</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero">
+  <div class="container">
+    <div class="hero-move">
+      <div class="hero-text">
+        <h1 class="hero-title">Cute Cats. Endless Snacks the game</h1>
+        <p class="hero-desk">Fun puzzle gameplay with adorable feline chaos</p>
+        <a
+          class="hero-btn"
+          href="https://play.google.com/store/apps/details?id=com.DinozGames.HungryCats&hl=en&gl=us"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <svg class="hero-icon" width="28" height="28">
+            <use href="/stp-12941/assets/sprite-DdjLjxt2.svg#icon-play"></use>
+          </svg>
+          Play on Google Play
+        </a>
+      </div>
+      <div class="hero-image">
+        <picture class="hero-photo">
+          <source
+            srcset="/stp-12941/assets/hero-DHBseEXR.png 1x, /stp-12941/assets/hero2x-DVrE78MT.png 2x"
+            media="(min-width: 1440px)"
+          />
+          <source
+            srcset="/stp-12941/assets/hero-mob-B6OTDbY3.png 1x, /stp-12941/assets/hero-mob2x-m89mFQp-.png 2x"
+            media="(min-width: 320px)"
+          />
+          <img src="/stp-12941/assets/hero-mob-B6OTDbY3.png" alt="Cute cats game" />
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="about" id="about">
+  <div class="container">
+    <div class="about-container">
+      <div class="about-text">
+        <h2 class="about-title">About the Game</h2>
+        <p class="about-desk">
+          A cozy cat-filled puzzle experience designed for fun. You'll spend
+          your time solving puzzles to feed hungry cats, and trust me, they get
+          pretty creative with their demands as you progress.
+        </p>
+        <p class="about-desk">
+          Every level introduces new visual surprises, animated cat
+          personalities, and satisfying interactions. It's perfect when you've
+          got like 10 minutes to kill - super easy to start playing, but then
+          you'll probably end up playing way longer than you planned. And yeah,
+          it'll definitely make you smile.
+        </p>
+      </div>
+      <picture class="about-photo">
+        <source
+          srcset="/stp-12941/assets/about-Bl199nzX.png 1x, /stp-12941/assets/about2x-C5gh44ju.png 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/stp-12941/assets/about-mob-B8Pq765V.png 1x, /stp-12941/assets/about-mob2x-DvwH3r41.png 2x"
+          media="(min-width: 320px)"
+        />
+        <img
+          src="/stp-12941/assets/about-Bl199nzX.png"
+          alt="About"
+          width="342"
+          height="559"
+          loading="lazy"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
+
+      <section class="howtoplay" id="howtoplay">
+  <div class="howtoplay-cont container">
+    <h2 class="howtoplay-title">How to Play</h2>
+    <p class="howtoplay-parag">
+      Simple food puzzles with playful cat reactions
+    </p>
+    <div class="swiper howtoplay-swiper">
+      <ul class="swiper-wrapper howtoplay-list">
+        <li class="swiper-slide howtoplay-item">
+          <div class="howtoplay-img-cont">
+            <picture class="howtoplay-photo">
+              <source
+                srcset="/stp-12941/assets/how-to-play(1)-CGb6GUH8.png 1x, /stp-12941/assets/how-to-play(1)2x-Cb27sgeP.png 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/stp-12941/assets/how-to-play-mob(1)-CiyVHKoV.png 1x, /stp-12941/assets/how-to-play-mob(1)2x-_bEfISWU.png 2x"
+                media="(min-width: 320px)"
+              />
+              <img
+                src="/stp-12941/assets/how-to-play(1)-CGb6GUH8.png"
+                alt="how-to-play"
+                width="170"
+                height="180"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <p class="howtoplay-text">Complete Puzzle Challenges</p>
+        </li>
+
+        <li class="swiper-slide howtoplay-item">
+          <div class="howtoplay-img-cont">
+            <picture class="howtoplay-photo">
+              <source
+                srcset="/stp-12941/assets/how-to-play(2)-OouKL6ut.png 1x, /stp-12941/assets/how-to-play(2)2x-C-uVGkGA.png 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/stp-12941/assets/how-to-play-mob(2)-7NftaAEO.png 1x, /stp-12941/assets/how-to-play-mob(2)2x-DBRpUmCB.png 2x"
+                media="(min-width: 320px)"
+              />
+              <img
+                src="/stp-12941/assets/how-to-play(2)-OouKL6ut.png"
+                alt="how-to-play"
+                width="170"
+                height="180"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <p class="howtoplay-text">Feed Hungry Cats</p>
+        </li>
+        <li class="swiper-slide howtoplay-item">
+          <div class="howtoplay-img-cont">
+            <picture class="howtoplay-photo">
+              <source
+                srcset="/stp-12941/assets/how-to-play(3)-GGO2SWPU.png 1x, /stp-12941/assets/how-to-play(3)2x-yDpxbzxI.png 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/stp-12941/assets/how-to-play-mob(3)-4NlpeUJe.png 1x, /stp-12941/assets/how-to-play-mob(3)2x-Bpbehuo6.png 2x"
+                media="(min-width: 320px)"
+              />
+              <img
+                src="/stp-12941/assets/how-to-play(3)-GGO2SWPU.png"
+                alt="how-to-play"
+                width="170"
+                height="180"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <p class="howtoplay-text">Unlock New Cats</p>
+        </li>
+        <li class="swiper-slide howtoplay-item">
+          <div class="howtoplay-img-cont">
+            <picture class="howtoplay-photo">
+              <source
+                srcset="/stp-12941/assets/how-to-play(4)-B4ojOoz3.png 1x, /stp-12941/assets/how-to-play(4)2x-Dr2xWzFR.png 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/stp-12941/assets/how-to-play-mob(4)-O87TkxF4.png 1x, /stp-12941/assets/how-to-play-mob(4)2x-DEqVjFVh.png 2x"
+                media="(min-width: 320px)"
+              />
+              <img
+                src="/stp-12941/assets/how-to-play(4)-B4ojOoz3.png"
+                alt="how-to-play"
+                width="170"
+                height="180"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <p class="howtoplay-text">Use Special Boosters</p>
+        </li>
+        <li class="swiper-slide howtoplay-item">
+          <div class="howtoplay-img-cont">
+            <picture class="howtoplay-photo">
+              <source
+                srcset="/stp-12941/assets/how-to-play(5)-DHMgHPmc.png 1x, /stp-12941/assets/how-to-play(5)2x-H1KCAQCt.png 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/stp-12941/assets/how-to-play-mob(5)-DDbJh_3c.png 1x, /stp-12941/assets/how-to-play-mob(5)2x-BmXViK9r.png 2x"
+                media="(min-width: 320px)"
+              />
+              <img
+                src="/stp-12941/assets/how-to-play(5)-DHMgHPmc.png"
+                alt="how-to-play"
+                width="170"
+                height="180"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <p class="howtoplay-text">Progress Through Colorful Levels</p>
+        </li>
+        <li class="swiper-slide howtoplay-item">
+          <div class="howtoplay-img-cont">
+            <picture class="howtoplay-photo">
+              <source
+                srcset="/stp-12941/assets/how-to-play(6)-Bw2WdrkO.png 1x, /stp-12941/assets/how-to-play(6)2x-B264JYXo.png 2x"
+                media="(min-width: 1440px)"
+              />
+              <source
+                srcset="/stp-12941/assets/how-to-play-mob(6)-CygcN21q.png 1x, /stp-12941/assets/how-to-play-mob(6)2x-C2520NaC.png 2x"
+                media="(min-width: 320px)"
+              />
+              <img
+                src="/stp-12941/assets/how-to-play(6)-Bw2WdrkO.png"
+                alt="how-to-play"
+                width="170"
+                height="180"
+                loading="lazy"
+              />
+            </picture>
+          </div>
+          <p class="howtoplay-text">Enjoy Pure Wholesome Fun</p>
+        </li>
+      </ul>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+      <section class="features" id="features">
+  <div class="container">
+    <h2 class="features-main-title">Features</h2>
+    <ul class="features-list">
+      <li class="features-item">
+        <div class="features-wrap">
+          <div class="features-picture-box">
+            <picture class="footer-picture-mob">
+              <source
+                media="(min-width: 320px)"
+                srcset="/stp-12941/assets/features-mob(1)-CKEhxIkM.png 1x, /stp-12941/assets/features-mob(1)2x-B5ZqRGde.png 2x"
+              />
+              <img
+                srcset="/stp-12941/assets/features-mob(1)-CKEhxIkM.png 1x, /stp-12941/assets/features-mob(1)2x-B5ZqRGde.png 2x"
+                src="/stp-12941/assets/features-mob(1)-CKEhxIkM.png"
+                alt="cat"
+              />
+            </picture>
+          </div>
+          <div class="features-text-box">
+            <h3 class="features-text-box-title">Adorable Cartoon Cats</h3>
+            <p class="features-text-box-text">
+              Every cat's got their own little personality quirks, and you can
+              totally see it in how they move and react to stuff.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="features-wrap">
+          <div class="features-picture-box">
+            <picture class="footer-picture-mob">
+              <source
+                media="(min-width: 320px)"
+                srcset="/stp-12941/assets/features-mob(2)-DHCCpJIi.png 1x, /stp-12941/assets/features-mob(2)2x-Dhdmu5_t.png 2x"
+              />
+              <img
+                srcset="/stp-12941/assets/features-mob(2)-DHCCpJIi.png 1x, /stp-12941/assets/features-mob(2)2x-Dhdmu5_t.png 2x"
+                src="/stp-12941/assets/features-mob(2)-DHCCpJIi.png"
+                alt="bright food"
+              />
+            </picture>
+          </div>
+          <div class="features-text-box">
+            <h3 class="features-text-box-title">Bright Food-Themed Visuals</h3>
+            <p class="features-text-box-text">
+              Everything's super bright and colorful, which just makes the whole
+              thing feel fun and upbeat.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="features-wrap">
+          <div class="features-picture-box">
+            <picture class="footer-picture-mob">
+              <source
+                media="(min-width: 320px)"
+                srcset="/stp-12941/assets/features-mob(3)-CXtkrmlz.png 1x, /stp-12941/assets/features-mob(3)2x-Ce6DFESR.png 2x"
+              />
+              <img
+                srcset="/stp-12941/assets/features-mob(3)-CXtkrmlz.png 1x, /stp-12941/assets/features-mob(3)2x-Ce6DFESR.png 2x"
+                src="/stp-12941/assets/features-mob(3)-CXtkrmlz.png"
+                alt="relaxing cat"
+              />
+            </picture>
+          </div>
+          <div class="features-text-box">
+            <h3 class="features-text-box-title">Relaxing Casual Sessions</h3>
+            <p class="features-text-box-text">
+              Great for playing during your coffee break or while waiting for
+              the bus.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="features-wrap">
+          <div class="features-picture-box">
+            <picture class="footer-picture-mob">
+              <source
+                media="(min-width: 320px)"
+                srcset="/stp-12941/assets/features-mob(4)-DrqUsZ4a.png 1x, /stp-12941/assets/features-mob(4)2x-CaMTxCpz.png 2x"
+              />
+              <img
+                srcset="/stp-12941/assets/features-mob(4)-DrqUsZ4a.png 1x, /stp-12941/assets/features-mob(4)2x-CaMTxCpz.png 2x"
+                src="/stp-12941/assets/features-mob(4)-DrqUsZ4a.png"
+                alt="cat's paw"
+              />
+            </picture>
+          </div>
+          <div class="features-text-box">
+            <h3 class="features-text-box-title">Smooth Toush Contrals</h3>
+            <p class="features-text-box-text">
+              The controls are really smooth - no lag or weird touch issues that
+              make you want to throw your phone.
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="features-wrap">
+          <div class="features-picture-box">
+            <picture class="footer-picture-mob">
+              <source
+                media="(min-width: 320px)"
+                srcset="/stp-12941/assets/features-mob(5)-C9wWSIjR.png 1x, /stp-12941/assets/features-mob(5)2x-e1Gtly8m.png 2x"
+              />
+              <img
+                srcset="/stp-12941/assets/features-mob(5)-C9wWSIjR.png 1x, /stp-12941/assets/features-mob(5)2x-e1Gtly8m.png 2x"
+                src="/stp-12941/assets/features-mob(5)-C9wWSIjR.png"
+                alt="cat with reward"
+              />
+            </picture>
+          </div>
+          <div class="features-text-box">
+            <h3 class="features-text-box-title">Rewarding Progression</h3>
+            <p class="features-text-box-text">
+              Always something new popping up! Collect more cute cats, solve
+              trickier puzzles, and enjoy the chaos.
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      
+      <div class="container">
+  <div class="footer-wrap">
+    <div class="footer-play-mob">
+      <p class="footer-title">Ready to feed the hungriest cats?</p>
+      <button class="footer-btn">
+        <svg class="footer-btn-svg" width="28" height="28">
+          <use class="footer-btn-svg" href="/sprite.svg#icon-play"></use>
+        </svg>
+        Play on Google Play
+      </button>
+    </div>
+    <div class="footer-picture-box">
+      <picture class="footer-picture-mob">
+        <source
+          media="(min-width: 320px)"
+          srcset="/stp-12941/assets/cta-cat-mob(1)-CsxN5cnd.png 1x, /stp-12941/assets/cta-cat-mob(1)2x-BL8sGC_G.png 2x"
+        />
+        <img
+          srcset="/stp-12941/assets/cta-cat-mob(1)-CsxN5cnd.png 1x, /stp-12941/assets/cta-cat-mob(1)2x-BL8sGC_G.png 2x"
+          src="/stp-12941/assets/cta-cat-mob(1)-CsxN5cnd.png"
+          alt="cat"
+        />
+      </picture>
+    </div>
+    <div class="footer-picture-box">
+      <ul class="footer-picture-desk">
+        <li>
+          <div>
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="/stp-12941/assets/cta-cat(1)-1nni76OL.png 1x, /stp-12941/assets/cta-cat(1)2x-C3A10W7O.png 2x"
+              />
+              <img
+                srcset="/stp-12941/assets/cta-cat(1)-1nni76OL.png 1x, /stp-12941/assets/cta-cat(1)2x-C3A10W7O.png 2x"
+                src="/stp-12941/assets/cta-cat(1)-1nni76OL.png"
+                alt="cat"
+              />
+            </picture>
+          </div>
+        </li>
+        <li>
+          <div class="footer-play">
+            <p class="footer-title">Ready to feed the hungriest cats?</p>
+            <button class="footer-btn">
+              <svg class="footer-btn-svg" width="35" height="35">
+                <use class="footer-btn-svg" href="/sprite.svg#icon-play"></use>
+              </svg>
+              Play on Google Play
+            </button>
+          </div>
+        </li>
+        <li>
+          <div>
+            <picture>
+              <source
+                media="(min-width: 1440px)"
+                srcset="/stp-12941/assets/cta-cat(2)-CwgKuQpu.png 1x, /stp-12941/assets/cta-cat(2)2x-DgRI82zr.png 2x"
+              />
+              <img
+                srcset="/stp-12941/assets/cta-cat(2)-CwgKuQpu.png 1x, /stp-12941/assets/cta-cat(2)2x-DgRI82zr.png 2x"
+                src="/stp-12941/assets/cta-cat(2)-CwgKuQpu.png"
+                alt="cat"
+              />
+            </picture>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer-info">
+      <div class="footer-info-wrap">
+        <div class="footer-info-mail">
+          <a href="./index.html" class="footer-mini-title">Hungry Cats</a>
+          <a class="footer-link" href="mailto:info@coretrail.space"
+            >info@coretrail.space</a
+          >
+        </div>
+        <div class="footer-info-box">
+          <a class="footer-link" href="../privacy-policy.html"
+            >Privacy Policy</a
+          >
+          <a class="footer-link" href="../terms.html">Terms of Service</a>
+        </div>
+      </div>
+      <p class="footer-text">© 2026 coretrail.space — All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+    <button class="scroll-top" id="scrollTopBtn">
+  ↑
+</button>
+  </body>
+</html>
