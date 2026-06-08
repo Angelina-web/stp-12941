@@ -1,6 +1,5 @@
 .features {
   padding: 64px 15px;
-  width: 375px;
   background: var(--background-main-brand-color);
 }
 .features-main-title {
@@ -72,7 +71,6 @@
 @media only screen and (min-width: 1440px) {
   .features {
     padding: 100px 72px;
-    width: 1440px;
   }
   .features-main-title {
     font-size: 36px;
@@ -133,7 +131,7 @@
     color: var(--typography-main);
     background: var(--background-cards-base-blue);
     border-radius: 32px;
-    padding: 57px 110px 57px 111px;
+    padding: 113px 54px 113px;
     position: absolute;
     top: 0;
     width: 100%;
