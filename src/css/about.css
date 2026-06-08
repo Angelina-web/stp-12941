@@ -25,7 +25,7 @@
   margin-bottom: 16px;
 }
 .about-photo img {
- display: block;
+  display: block;
   width: 342px;
   height: auto;
   margin: 0 auto;
@@ -50,6 +50,5 @@
   }
   .about-photo img {
     width: 636px;
-   
   }
 }
