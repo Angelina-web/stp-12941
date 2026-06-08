@@ -1,6 +1,4 @@
 .footer-wrap {
-  width: 375px;
-  height: 491px;
   background: var(--background-main-brand-color);
 }
 .footer-play-mob {
@@ -46,20 +44,27 @@
 
 @media only screen and (min-width: 1440px) {
   .footer-wrap {
-    width: 1440px;
-    height: 294px;
     background: var(--background-main-brand-color);
   }
   .footer-play-mob {
     display: none;
+  }
+  .footer-picture-image img {
+    width: 319px;
+    height: 294px;
+  }
+  .footer-play {
+    padding: 64px 0 64px;
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
   }
   .footer-title {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 48px;
     color: var(--typography-main);
-    margin-top: 64px;
-    margin-bottom: 32px;
   }
   .footer-btn {
     display: flex;
@@ -87,10 +92,7 @@
   .footer-btn-svg {
     fill: var(--typography-white);
   }
-  .footer-picture-box {
-    display: flex;
-    gap: 837px;
-  }
+
   .footer-picture-mob {
     display: none;
   }
