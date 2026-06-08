@@ -104,6 +104,8 @@
   .features-picture-box-desk {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     border-radius: 32px;
     padding: 57px 110px 57px 111px;
