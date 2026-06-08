@@ -1,6 +1,5 @@
 .faq {
-  padding: 64px 0px 64px 1px;
-  width: 375px;
+  padding: 64px 0 64px;
   background: var(--background-second-brand-color);
 }
 
@@ -74,7 +73,6 @@
 @media only screen and (min-width: 1440px) {
   .faq {
     padding: 100px 72px;
-    width: 1440px;
   }
 
   .faq-main-title {
