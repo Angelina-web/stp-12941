@@ -26,7 +26,7 @@
 }
 .about-photo img {
   display: block;
-  width: 342px;
+  width: 100%;
   height: auto;
   margin: 0 auto;
 }

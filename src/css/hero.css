@@ -42,7 +42,7 @@
   margin-bottom: 24px;
 }
 .hero-photo img {
-  width: 375px;
+    width: 100%;
   height: 282px;
 }
 .hero-move {

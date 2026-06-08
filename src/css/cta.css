@@ -79,6 +79,7 @@
     transition: transform 0.3s ease;
     margin-left: auto;
     margin-right: auto;
+    animation: pulseShadow 2s infinite;
   }
   .footer-btn:hover {
     transform: scale(1.05);
