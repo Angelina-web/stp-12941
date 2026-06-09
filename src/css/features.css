@@ -1,5 +1,5 @@
 .features {
-  padding: 64px 15px;
+  padding: 64px 1px;
   background: var(--background-main-brand-color);
 }
 .features-main-title {
@@ -31,7 +31,8 @@
   flex-direction: row;
   border-radius: 32px;
   padding: 36px 21px;
-  width: 345px;
+  width: 100%;
+   max-width: 345px;
   height: 198px;
   background: var(--background-cards-base-blue);
   gap: 15px;

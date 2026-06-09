@@ -4,8 +4,11 @@ import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const container = document.querySelector('.howtoplay-swiper');
+  const container = document.querySelector('[data-howtoplay-swiper]');
+
   if (!container) return;
+
+  const paginationEl = container.querySelector('[data-howtoplay-pagination]');
 
   new Swiper(container, {
     modules: [Pagination, Autoplay],
@@ -22,8 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 600,
 
     pagination: {
-      el: '.swiper-pagination',
+      el: paginationEl,
       clickable: true,
+      dynamicMainBullets: 3,
     },
 
     breakpoints: {
@@ -36,8 +40,12 @@ document.addEventListener('DOMContentLoaded', () => {
     },
 
     on: {
-      mouseenter() { this.autoplay.stop(); },
-      mouseleave() { this.autoplay.start(); },
+      mouseenter() {
+        this.autoplay.stop();
+      },
+      mouseleave() {
+        this.autoplay.start();
+      },
     },
   });
 });

@@ -1,9 +1,11 @@
+.about{
+  padding: 64px 0;
+}
 .about-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 64px 0;
 }
 .about-title {
   font-family: var(--font-family);
@@ -31,9 +33,11 @@
   margin: 0 auto;
 }
 @media screen and (min-width: 1440px) {
+  .about{
+    padding: 100px 0;
+  }
   .about-container {
     flex-direction: row-reverse;
-    margin: 100px 0;
   }
   .about-title {
     font-size: 36px;

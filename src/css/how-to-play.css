@@ -4,10 +4,9 @@
 
 .howtoplay-swiper .swiper-pagination {
   position: relative;
-  margin-top: 16px;
+  margin-top: 18px;
   text-align: center;
 }
-
 .howtoplay {
   background: var(--background-second-brand-color);
   padding: 64px 0px;

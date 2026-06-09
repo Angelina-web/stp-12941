@@ -1,6 +1,5 @@
 .hero {
-  margin-top: 64px;
-  padding-top: 64px;
+  padding-top: 120px;
   padding-bottom: 65px;
 }
 .hero-title {
@@ -52,7 +51,6 @@
 
 @media screen and (min-width: 1440px) {
   .hero {
-    margin-top: 0;
     padding-top: 129px;
     padding-bottom: 34px;
   }
