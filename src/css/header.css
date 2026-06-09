@@ -24,8 +24,8 @@
   fill: white;
   color: white;
   stroke: white;
-  width: 31px;
-  height: 31px;
+  width: 24px;
+  height: 16px;
 }
 
 /* Мобільне меню */
@@ -49,8 +49,8 @@
 
 .header-icon-close-menu {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  top: 15px;
+  right: 15px;
   background: none;
   border: none;
 }

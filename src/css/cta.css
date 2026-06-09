@@ -30,6 +30,7 @@
 }
 .footer-btn:hover {
   transform: scale(1.05);
+   animation: none;
 }
 .footer-btn-svg {
   fill: var(--typography-white);
