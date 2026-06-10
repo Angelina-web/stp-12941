@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const targetSection = document.getElementById(targetId);
 
       if (targetSection) {
-        mobileMenu.classList.remove('js-open');
+        delete mobileMenu.dataset.open;
 
         targetSection.setAttribute('tabindex', '-1');
         targetSection.focus();
