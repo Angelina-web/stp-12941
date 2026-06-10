@@ -43,7 +43,11 @@
    box-sizing: border-box; 
 }
 
-.mobile-menu.js-open {
+[data-mobile-menu] {
+  transform: translateX(100%);
+}
+
+[data-mobile-menu][data-open="true"] {
   transform: translateX(0);
 }
 

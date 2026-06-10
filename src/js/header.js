@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   burgerBtn.addEventListener('click', () => {
-    mobileMenu.classList.add('js-open');
+    mobileMenu.dataset.open = 'true';
   });
 
   closeBtn.addEventListener('click', () => {
-    mobileMenu.classList.remove('js-open');
+    delete mobileMenu.dataset.open;
   });
 
   categoryLinks.forEach(link => {
